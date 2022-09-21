@@ -94,7 +94,25 @@ public class Main {
         var raznicaZpKr = newZpKr - kristina;
         System.out.println("Теперь Маша получает " + newZpMa + " рублей. Годовой доход вырос на " + raznicaZpMa + " рублей");
         System.out.println("Теперь Денис получает " + newZpDe + " рублей. Годовой доход вырос на " + raznicaZpDe + " рублей");
-        System.out.println("Теперь Маша получает " + newZpKr + " рублей. Годовой доход вырос на " + raznicaZpKr + " рублей");
+        System.out.println("Теперь Кристина получает " + newZpKr + " рублей. Годовой доход вырос на " + raznicaZpKr + " рублей");
+        // вариант со сложением
+        var masha2 = 67760;
+        var denis2 = 83690;
+        var kristina2 = 76230;
+        var plusMasha = masha2 * 0.1;
+        var plusDenis = denis2 * 0.1;
+        var plusKristina = kristina2 * 0.1;
+        var newZpMa2 = masha2 + plusMasha;
+        var newZpDe2 = denis2 + plusDenis;
+        var newZpKr2 = kristina2 + plusKristina;
+        var raznicaZpMa2 = newZpMa2 - masha;
+        var raznicaZpDe2 = newZpDe2 - denis;
+        var raznicaZpKr2 = newZpKr2 - kristina;
+        System.out.println("Теперь Маша получает " + newZpMa2 + " рублей. Годовой доход вырос на " + raznicaZpMa2 + " рублей");
+        System.out.println("Теперь Денис получает " + newZpDe2 + " рублей. Годовой доход вырос на " + raznicaZpDe2 + " рублей");
+        System.out.println("Теперь Кристина получает " + newZpKr2 + " рублей. Годовой доход вырос на " + raznicaZpKr2 + " рублей");
+
+        System.out.println("не получается убрать погрешность Дениса, подскажите как это сделать");
 
 
     }
