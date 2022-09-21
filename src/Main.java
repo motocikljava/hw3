@@ -96,6 +96,8 @@ public class Main {
         System.out.println("Теперь Денис получает " + newZpDe + " рублей. Годовой доход вырос на " + raznicaZpDe + " рублей");
         System.out.println("Теперь Маша получает " + newZpKr + " рублей. Годовой доход вырос на " + raznicaZpKr + " рублей");
 
+        System.out.println("не получается убрать погрешность Дениса, подскажите как это сделать");
+
 
     }
 }
